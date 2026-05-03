@@ -1,1 +1,45 @@
 @charset "UTF-8";
+/* aqui foi adicionado borda na página*/
+ul {
+    border: 10px solid black; /* Espessura, estilo e cor */
+    padding: 100px;           /* Espaço interno para a borda não grudar no texto */
+    border-radius: 120px;      /* (Opcional) Arredonda as bordas */
+}
+
+/* aqui centralizei o texto com o nome da padaria e add uma cor de fundo*/
+h1{
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 10px 10px 10px black;
+
+}
+/*aqui foi adicionado bordas no menu para outras páginas e cores*/
+a {
+    border-radius: 22px;
+    background-color: rgb(225, 231, 231);
+    text-decoration: none; /* Remove o sublinhado padrão */
+    color: rgb(170, 46, 87); /* Cor padrão */
+    transition: 0.3s; /* Transição suave */
+}
+
+a:hover {
+    color: red; /* Muda para vermelho ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+/*aqui coloquei letras maiores nos meus links menu de produtos,contatos,trabelhe conosco,nossas redes sociais,quem somos.*/
+  a {
+        font-size: 35px;
+    }
+
+main {
+     background: fixed rgb(153, 175, 73);
+     
+}
+
+
+audio::-webkit-media-controls-panel {
+
+    background-color: #0cdf28;
+    audio     
+}
